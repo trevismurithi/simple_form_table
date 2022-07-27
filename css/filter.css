@@ -1,0 +1,81 @@
+.filter {
+    width: 80%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: blue;
+}
+
+.filter input{
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    background-color: rgba(196, 196, 196, 0.22);
+    outline: none;
+    border: none;
+}
+
+.filter-icon-text{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.filter-two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.filter-select{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: green;
+    width: 300px;
+}
+
+.filter-select div {
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.select_dropdown{
+    width: 120px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
+    background-color: rgba(196, 196, 196, 0.22);
+    outline: none;
+    border: none;
+}
+
+.input-icons i {
+    position: absolute;
+    right: 0;
+}
+
+.input-icons {
+    position: relative;
+    width: fit-content;
+    margin-bottom: 10px;
+    background-color: chartreuse;
+}
+
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+}

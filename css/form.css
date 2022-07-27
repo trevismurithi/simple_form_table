@@ -1,5 +1,5 @@
 .main {
-    width: 40%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
@@ -14,7 +14,7 @@
     justify-content: space-between;
 }
 
-input, select{
+.inputs input,select{
     width: 200px;
     padding-top: 15px;
     padding-bottom: 15px;
