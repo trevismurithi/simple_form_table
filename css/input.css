@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.input {
+    display: flex;
+    width: 200px;
+    align-items: center;
+}
+
+.input select {
+    width: 34%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
+    background-color: rgba(196, 196, 196, 0.22);
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+    border: none;
+}
+
+.input input {
+    width: 65%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
+    background-color: rgba(196, 196, 196, 0.22);
+    border-radius: 0px 10px 10px 0px;
+    outline: none;
+    border: none;
+}
+
+.line{
+    width: .5px;
+    height:35px;
+    background-color: #3C3C3C;
+}
